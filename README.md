@@ -19,9 +19,7 @@ sudo pacman -S --needed base-devel cmake ninja fish qt6-base qt6-declarative qt6
 Clone o repositório e compile:
 
 ```fish
-mkdir -p ~/Projetos
 git clone https://github.com/wizardkof/Tarefas11.git
-cd ~/Projetos/Tarefas11
 fish build.fish
 ctest --test-dir build --output-on-failure
 sudo cmake --install build --prefix /usr/local
