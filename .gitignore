@@ -1,0 +1,22 @@
+# Build e arquivos gerados
+/build/
+/build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/Testing/
+*_autogen/
+*.o
+*.a
+*.so
+*.qmlc
+*.jsc
+*.rcc
+*.exe
+*.rej
+*.orig
+
+# IDE / arquivos locais
+.idea/
+.vscode/
+*.user
+.DS_Store

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Gerenciador de Tarefas (Tarefas11)
+Comment=Monitor de processos e desempenho em Qt 6
+Exec=tarefas11
+Icon=tarefas11
+Categories=System;Monitor;
+Terminal=false
+StartupNotify=true
