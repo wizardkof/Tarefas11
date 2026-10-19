@@ -20,8 +20,7 @@ Clone o repositório e compile:
 
 ```fish
 mkdir -p ~/Projetos
-git clone https://github.com/wizardkof/Tarefas11.git ~/Projetos/Tarefas11
-cd ~/Projetos/Tarefas11
+git clone https://github.com/wizardkof/Tarefas11.git
 fish build.fish
 ctest --test-dir build --output-on-failure
 sudo cmake --install build --prefix /usr/local
